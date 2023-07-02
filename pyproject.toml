@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Martins Einkaufsliste"
 authors = ["Martin Ueding <mu@martin-ueding.de>"]
 readme = "README.md"
-packages = [{include = "martins_einkaufsliste"}]
+packages = [{include = "mysite"}, {include = "einkaufsliste"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
