@@ -1,0 +1,19 @@
+@startuml
+
+object Produkt {
+    Name
+    Kommentar
+    Menge
+}
+object Geschäft {
+    Name
+}
+object Veränderung {
+    Zeitpunkt
+    Text
+}
+
+Produkt <-- Veränderung
+Produkt <--> Geschäft
+
+@enduml

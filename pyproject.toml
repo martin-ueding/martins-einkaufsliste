@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "martins-einkaufsliste"
+version = "0.1.0"
+description = "Martins Einkaufsliste"
+authors = ["Martin Ueding <mu@martin-ueding.de>"]
+readme = "README.md"
+packages = [{include = "martins_einkaufsliste"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
